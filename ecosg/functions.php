@@ -1,0 +1,12 @@
+<?php
+session_start();
+date_default_timezone_set("Africa/Kigali");
+include('db.php');
+//include('setting/setting.php');
+//include('stock/stock.php');
+//include('cashflow/cashflow.php');
+//include('purchase/purchase.php');
+//include('sales/sales.php');
+//include('reports/report.php');
+include('staff/userdashboard.php');
+?>
